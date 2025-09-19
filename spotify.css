@@ -1,0 +1,116 @@
+body {
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+.navbar {
+    display: flex;
+}
+
+#spotifyicon {
+
+    color: #1DB954;
+    font-size: 30px;
+}
+
+#home {
+
+    color: rgba(239, 244, 249, 0.838);
+    font-size: 30px;
+
+}
+
+.input-wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    background-color: white;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.96);
+    padding: 10px;
+    width: 100%;
+}
+
+#inpfield {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 180px;
+    background: transparent;
+
+}
+
+button {
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#rightside,
+#leftside {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    border: 1px solid white;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#artistset {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+#artist1{
+     background-image: url('https://c.saavncdn.com/artists/Hansraj_Raghuwanshi_001_20220916054832_500x500.jpg');
+}
+#artist2{
+     background-image: url('https://tse4.mm.bing.net/th/id/OIP.nL4Ei-pG_hsQwPZc-MeYRQHaEo?rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+#artist3{
+    background-image: url('https://i.pinimg.com/originals/86/b9/06/86b90615e050fa3fed8d0f843b7e6923.jpg');
+}
+#artist4{
+    background-image: url('https://starsunfolded.com/wp-content/uploads/2022/11/MC-Square-image.jpg');
+}
+#artist5{
+    background-image: url('https://th.bing.com/th/id/R.f1082f1d1a2d5695ec55fa98b1fe094c?rik=%2bPDCDsWlu9XSdg&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-20%2fAmrit-Maan-Best-Wallpaper-47011.jpg&ehk=SY9PxE54FDVSdeF9%2bKT3mWLVWbPyiwaP0V%2bRWFQ0Fl4%3d&risl=&pid=ImgRaw&r=0');
+}
+#artist6{
+    background-image: url('https://cdn.platinumlist.net/upload/artist/jubin_nautiyal_1263-orig1631093219.png');
+}
+#artist7{
+    background-image: url('https://tse1.mm.bing.net/th/id/OIP.LLxOfxeMFYA6UEIkUXK-1gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+#artist8{
+    background-image: url('https://starsunfolded.com/wp-content/uploads/2024/05/Dhanda-Nyoliwala.jpg');
+}
+#artist9{
+    background-image: url('https://tse3.mm.bing.net/th/id/OIP.5F0haLSbl2Gahk86kToEpgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+#artist10{
+    background-image: url('https://images.genius.com/38b7493d938b6396edfc7c111c511a3c.640x640x1.jpg');
+}
+.box{
+    height: 300px;
+    width: 300px;
+
+}
+.artistname{
+    color: white;
+     margin-left: 20px;
+}

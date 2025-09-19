@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://th.bing.com/th/id/OIP.ot6MG5rwJbCMvXeX9BWqdgHaO0?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+.album {
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(250, 245, 245);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+#image {
+    background-image: url('https://i.ytimg.com/vi/oLu9_vX0Gns/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+audio {
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 500px;
+}
+#albumparent{
+    width: 500px;
+    height: 800px;
+    border: 1px solid rgb(250, 245, 245);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 500px;
+    
+
+}
